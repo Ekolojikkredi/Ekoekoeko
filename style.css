@@ -44,4 +44,34 @@ body {
     display: block;
     width: 100%;
     padding: 10px;
-    margin: 10px
+    margin: 10px 0;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+}
+
+.oval-btn:hover {
+    background-color: #0056b3;
+}
+
+.section {
+    display: none;
+    padding: 20px;
+    flex: 2;
+    overflow-y: auto;
+}
+
+.section.active {
+    display: block;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
